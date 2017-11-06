@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      display: grid;
+      grid-template-rows: 200px 1fr 1fr 200px;
+      grid-template-rows: 400px 1fr;
+    }
+
+    header {
+      grid-area: 2 / 2 / span 2 / auto;
+    }
+
+    main {
+      grid-area: 4 / 1 / auto / 3;
+    }
+
+    footer {
+      grid-area: 4 / 1 / auto / 3;
+    }
+  </style>
+</head>
+
+<body>
+  <header>header</header>
+  <aside>aside1</aside>
+  <aside>aside2</aside>
+  <main>main</main>
+  <footer>footer</footer>
+</body>
+
+</html>
