@@ -13,4 +13,4 @@ let output = fs.readFileSync('./src/temp.txt', 'utf8').trim().split(' \n').map(l
   }, {});
 // console.log(output);
 
-// var totalAmount = orders.reduce((sum, order)=> sum + order.amount, 0);
+// var totaalAmount = orders.reduce((sum, order)=> sum + order.amount, 0);
